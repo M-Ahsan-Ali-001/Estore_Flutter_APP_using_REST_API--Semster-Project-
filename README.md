@@ -4,6 +4,7 @@ a login and registration page form which users can make a new id or login to
 the application, after login/registration, user will be navigated to a new page 
 where different categories will be present, user can select his/her desired 
 category and, buy things and their order history will also be saved.
+
 # 2. Objectives
  Send data to database
  Receive data from database
@@ -25,12 +26,21 @@ logged in screen app bar, user can check what he/she has added to cart can
 he/she can also remove items from cart, there will also be a button to buy 
 things after pressing the ‘BUY’ button use will be navigated to add 
 credit/debit card information and user can but this from there.
+
 # 4. Methodology
 This app will be developed on FLUTTER, the frontend will be developed on 
 flutter, for backend, REST API PHP will be used to send and receive data to 
 and from SQL SERVER as JSON, for cart I will use object-oriented
 programming to make an object of user and to store his/her items in a list, and 
 to store data SQL SERVER will be used.
+# Technology Used:
+• Flutter
+• Dart
+• PHP
+• MSSQL
+•EmailJS
+•REST API
+
 # 5. Detail
 # Login / Signup Pages:
 •	This app contains login and sign up, if a user   wants to sign up, he must provide a unique username and email to sign up, username and email will be checked in the database that they do not exist in database, if they already exist in the database then user will be asked to try with new username and email.
